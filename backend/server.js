@@ -12,7 +12,9 @@ require('dotenv').config(); // now process.env has keys and values from .env fil
 const app = express();
 
 app.use(cors());
-app.use(helmet());
+app.use(helmet({
+    contentSecurityPolicy: false,   // removes CSP errors
+}));
 app.use(express.json());    // parses incoming requests with JSON payloads and is based on body-parser
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, '../frontend/build')));    // serves static files from React to client
