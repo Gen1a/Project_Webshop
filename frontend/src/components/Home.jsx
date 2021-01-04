@@ -32,7 +32,7 @@ const Home = () => {
             <Container className="my-4">
                 <h5>Github Repository</h5>
                 <p>De Github repository voor dit project is {' '}
-                    <a href="https://github.com/Gen1a/School_Projects/tree/project-webshop/Web/Project_Webshop" target="_blank" rel="noreferrer">hier</a>
+                    <a href="https://github.com/Gen1a/Project_Webshop" target="_blank" rel="noreferrer">hier</a>
                     {' '}terug te vinden.</p>
             </Container>
         </div>
