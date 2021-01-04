@@ -21,7 +21,7 @@ app.use(express.static(path.join(__dirname, '../frontend/build')));    // serves
 console.log(path.join(__dirname, '../frontend/build', 'index.html'));
 
 // Define routes
-app.use('/products', productRouter);
+app.use('/product', productRouter);
 app.use('/order', orderRouter);
 app.use('/user', userRouter);
 app.use('/categories', categoryRouter);

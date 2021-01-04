@@ -7,7 +7,7 @@
 
 # REST API Routes
 ## GET
-- '/products': Returns an array of Product objects in JSON format
+- '/product': Returns an array of Product objects in JSON format
 - '/order/(id)': Returns Order object for specified order id in JSON format
 - '/order/(id)/products': Returns an array of Product objects for specified order id in JSON format
 - '/user/(id)': Returns a User object for specified user id in JSON format
