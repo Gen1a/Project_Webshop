@@ -63,7 +63,6 @@ const UserDetailsForm = () => {
             // Perform user POST request
             const userPostResponse = await axios({
                 method: 'POST',
-                baseURL: 'http://localhost:3000/',
                 url: '/user/new',
                 data: userData,
             })
@@ -87,7 +86,6 @@ const UserDetailsForm = () => {
             // Perform order POST request
             const orderPostResponse = await axios({
                 method: 'POST',
-                baseURL: 'http://localhost:3000/',
                 url: '/order',
                 data: orderData,
             })

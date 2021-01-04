@@ -30,7 +30,7 @@ const ProductItem = () => {
         // Get category data
         (async () => {
             // Get category data for specified category ID
-            const categoryEndpoint = `http://localhost:3000/categories/${product.category_id}`;
+            const categoryEndpoint = `/categories/${product.category_id}`;
             try {
                 const categoryData = await axios.get(categoryEndpoint);
                 setCategory(categoryData.data);

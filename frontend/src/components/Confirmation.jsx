@@ -21,7 +21,7 @@ const Confirmation = () => {
     useEffect(() => {
         // Get order data for specified order ID using Immediately invoked function expression
         (async () => {
-            const orderEndpoint = `http://localhost:3000/order/${orderId}/products`;
+            const orderEndpoint = `/order/${orderId}/products`;
             axios.get(orderEndpoint)
                 .then((data) => {
                     setOrder(data.data);
@@ -37,7 +37,7 @@ const Confirmation = () => {
         // Get customer data for specified order ID using Immediately invoked function expression
         (async () => {
             // Get order data for specified order ID
-            const userEndpoint = `http://localhost:3000/user/${customerId}`;
+            const userEndpoint = `/user/${customerId}`;
             try {
                 const userData = await axios.get(userEndpoint);
                 setUser(userData.data);
