@@ -51,7 +51,7 @@ const ShoppingCart = () => {
                                     <Card.Text className="mx-2 my-auto">Aantal: {item.quantity}</Card.Text>
                                     <Button variant="dark" size="sm" onClick={() => dispatch(addProduct(item))}>
                                         <img
-                                            alt="remove one"
+                                            alt="add one"
                                             src="/images/circlePlus.svg"
                                             width="24"
                                             height="24"
