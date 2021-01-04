@@ -45,16 +45,18 @@ const ShoppingCart = () => {
                                             src="/images/circleMinus.svg"
                                             width="24"
                                             height="24"
-                                            className="d-inline-block align-top"/>
+                                            className="d-inline-block align-top"
+                                        />
                                     </Button>
                                     <Card.Text className="mx-2 my-auto">Aantal: {item.quantity}</Card.Text>
                                     <Button variant="dark" size="sm" onClick={() => dispatch(addProduct(item))}>
                                         <img
-                                            alt="add one"
+                                            alt="remove one"
                                             src="/images/circlePlus.svg"
                                             width="24"
                                             height="24"
-                                            className="d-inline-block align-top"/>
+                                            className="d-inline-block align-top"
+                                        />
                                     </Button>
                                 </Col>
                                 <Col md="1">
