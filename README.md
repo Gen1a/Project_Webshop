@@ -2,10 +2,11 @@
 Project Webshop is a simple webshop application based on the wideline known MERN-stack (MongoDB, Express, React, NodeJS).
 React interacts with our own REST API to gather the required data like products, product categories, orders, customers... and give a clean visual representation of this data.
 
-*The features of the webshop are aligned with the requirements I got from University College, user authentication not being on of them.*
+*The features of the webshop are aligned with the requirements I got from University College, user authentication not being one of them.*
 
 ## Deploy
 Project Webshop is currently hosted on [Heroku](https://projectwebshop.herokuapp.com/).
+
 *Note: The root of the project had to contain an additional package.json to be able to harmlessly deploy it to Heroku.*
 *For some bizar reason the '+' sign in the shopping cart view doesn't want to work, although the code being 100% correct.*
 
